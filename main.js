@@ -3,6 +3,10 @@
  */
 'use strict';
 import FindSubStrMaxSum from "./src/FindSubStrMaxSum";
+import FindMaxUniqSybStr from "./src/FindMaxUniqSubStr";
 
-new FindSubStrMaxSum().get();
-new FindSubStrMaxSum().getWithPositions();
+/*
+new FindSubStrMaxSum().find();
+new FindSubStrMaxSum().findWithPositions();*/
+
+new FindMaxUniqSybStr().find();

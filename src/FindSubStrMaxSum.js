@@ -7,7 +7,7 @@ export default class FindSubStrMaxSum {
 
     }
 
-    get() {
+    find() {
         let arr = [1, 2, 3, -15, 1, 9, -4, -14, 20, -20, 30];
 
         let answer = arr[0];
@@ -23,7 +23,7 @@ export default class FindSubStrMaxSum {
         console.log(`ANSWER=${answer}`);
     }
 
-    getWithPositions(){
+    findWithPositions(){
         let arr = [1, 2, 3, -15, 1, 9, -4, -14, 2, -20, 5];
 
         let answer = arr[0];
