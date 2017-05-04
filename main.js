@@ -4,9 +4,7 @@
 'use strict';
 import FindSubStrMaxSum from "./src/FindSubStrMaxSum";
 import FindMaxUniqSybStr from "./src/FindMaxUniqSubStr";
+import Compose from "./src/Compose";
 
-/*
-new FindSubStrMaxSum().find();
-new FindSubStrMaxSum().findWithPositions();*/
 
-new FindMaxUniqSybStr().find();
+new Compose().test();
