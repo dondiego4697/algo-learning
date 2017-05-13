@@ -39,7 +39,7 @@ export default class Compose {
             }
         }
 
-        console.log(compose(pow, multi)(3, 3));
+        console.log(`RESULT = ${compose(pow, pow, multi)(2, 2)}`);
     }
 
 

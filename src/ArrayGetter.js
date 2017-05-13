@@ -13,7 +13,7 @@ class ArrayGetter {
 
         function get(array) {
             array.forEach(elem => {
-                if (typeof elem !== 'string' && typeof elem !== 'number' && elem !== null && elem !== undefined) {
+                if (Array.isArray(elem)) {
                     get(elem);
                 } else {
                     outputArray.push(elem);
