@@ -14,7 +14,7 @@ class DataBinding {
         this.store = new Proxy(store, {
             /**
              * @param target - целевой объект
-             * @param propertyName - имя свойства (звязующее имя)
+             * @param propertyName - имя свойства (cвязующее имя)
              * @param receiver - объект, к которому было применено присваивание
              */
             get(target, propertyName, receiver){
