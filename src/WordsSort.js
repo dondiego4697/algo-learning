@@ -3,6 +3,10 @@
  */
 export default class WordsSort {
 
+    /**
+     * Группировка слов, состоящих из одних и тех же букв [{'кот', 'ток'}, {'абв','вба','авб'}]
+     * @return {Array}
+     */
     static getWordsWithSameLetters() {
         const input = ['кот', 'сила', 'комп', 'ток', 'илас', 'мокп', 'ттоййк', 'фузк', 'ййкотт', 'щоф', 'зкфу'];
         const output = [];

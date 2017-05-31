@@ -6,9 +6,9 @@ export default class Compose {
 
     }
 
-
-    //compose(sum, multi)(2,2);
-
+    /**
+     * Реализация функции compose
+     */
     test() {
         function sum(a, b) {
             return a + b;

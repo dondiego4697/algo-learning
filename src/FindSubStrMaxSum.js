@@ -7,6 +7,9 @@ export default class FindSubStrMaxSum {
 
     }
 
+    /**
+     * Поиск подстроки с максимальной суммой
+     */
     find() {
         let arr = [1, 2, 3, -15, 1, 9, -4, -14, 20, -20, 30];
 

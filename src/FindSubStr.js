@@ -3,6 +3,12 @@
  */
 export default class FindSubStr {
 
+    /**
+     * Поиск подстроки в строке методом Кнута-Мориса-Прата
+     * @param sub
+     * @param string
+     * @return {Array}
+     */
     static prefixFunction(sub, string) {
         const s = sub + '@' + string;
 

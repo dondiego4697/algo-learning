@@ -6,6 +6,9 @@ export default class FindMaxUniqSubStr {
 
     }
 
+    /**
+     * Поиск уникальной подстроки с максимальной длиной
+     */
     find() {
         let str = 'abbce';
         let lastIndex = new Array('z'.charCodeAt(0) - 'a'.charCodeAt(0) + 1);
